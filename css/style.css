@@ -1,0 +1,188 @@
+/* line 7, ../sass/style.sass */
+body {
+  background: -webkit-linear-gradient(right, #DE6262, #FFB88C);
+  background: linear-gradient(to left, #DE6262, #FFB88C);
+  color: #333;
+  font: 100% Lato, Arial, Sans Serif;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto; }
+  /* line 12, ../susy/susy/output/support/_clearfix.scss */
+  body:after {
+    content: " ";
+    display: block;
+    clear: both; }
+
+/* line 18, ../sass/style.sass */
+#background-wrap {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: -1;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto; }
+  /* line 12, ../susy/susy/output/support/_clearfix.scss */
+  #background-wrap:after {
+    content: " ";
+    display: block;
+    clear: both; }
+
+/* KEYFRAMES */
+@-webkit-keyframes animateBubble {
+  0% {
+    margin-top: 1000px; }
+  100% {
+    margin-top: -100%; } }
+@keyframes animateBubble {
+  0% {
+    margin-top: 1000px; }
+  100% {
+    margin-top: -100%; } }
+@-webkit-keyframes sideWays {
+  0% {
+    margin-left: 0px; }
+  100% {
+    margin-left: 50px; } }
+@keyframes sideWays {
+  0% {
+    margin-left: 0px; }
+  100% {
+    margin-left: 50px; } }
+/* ANIMATIONS */
+/* line 46, ../sass/style.sass */
+.x1 {
+  -webkit-animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+          animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  left: -5%;
+  top: 5%;
+  -webkit-transform: scale(0.6);
+      -ms-transform: scale(0.6);
+          transform: scale(0.6); }
+
+/* line 52, ../sass/style.sass */
+.x2 {
+  -webkit-animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+          animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+  left: 5%;
+  top: 80%;
+  -webkit-transform: scale(0.4);
+      -ms-transform: scale(0.4);
+          transform: scale(0.4); }
+
+/* line 58, ../sass/style.sass */
+.x3 {
+  -webkit-animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+          animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  left: 10%;
+  top: 40%;
+  -webkit-transform: scale(0.7);
+      -ms-transform: scale(0.7);
+          transform: scale(0.7); }
+
+/* line 64, ../sass/style.sass */
+.x4 {
+  -webkit-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+          animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+  left: 20%;
+  top: 0;
+  -webkit-transform: scale(0.3);
+      -ms-transform: scale(0.3);
+          transform: scale(0.3); }
+
+/* line 70, ../sass/style.sass */
+.x5 {
+  -webkit-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+          animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+  left: 30%;
+  top: 50%;
+  -webkit-transform: scale(0.5);
+      -ms-transform: scale(0.5);
+          transform: scale(0.5); }
+
+/* line 76, ../sass/style.sass */
+.x6 {
+  -webkit-animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
+          animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  left: 50%;
+  top: 0;
+  -webkit-transform: scale(0.8);
+      -ms-transform: scale(0.8);
+          transform: scale(0.8); }
+
+/* line 82, ../sass/style.sass */
+.x7 {
+  -webkit-animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
+          animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  left: 65%;
+  top: 70%;
+  -webkit-transform: scale(0.4);
+      -ms-transform: scale(0.4);
+          transform: scale(0.4); }
+
+/* line 88, ../sass/style.sass */
+.x8 {
+  -webkit-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+          animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+  left: 80%;
+  top: 10%;
+  -webkit-transform: scale(0.3);
+      -ms-transform: scale(0.3);
+          transform: scale(0.3); }
+
+/* line 94, ../sass/style.sass */
+.x9 {
+  -webkit-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+          animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+  left: 90%;
+  top: 50%;
+  -webkit-transform: scale(0.6);
+      -ms-transform: scale(0.6);
+          transform: scale(0.6); }
+
+/* line 100, ../sass/style.sass */
+.x10 {
+  -webkit-animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+          animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  left: 80%;
+  top: 80%;
+  -webkit-transform: scale(0.3);
+      -ms-transform: scale(0.3);
+          transform: scale(0.3); }
+
+/* OBJECTS */
+/* line 108, ../sass/style.sass */
+.bubble {
+  border-radius: 50%;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px white;
+  height: 200px;
+  position: absolute;
+  width: 200px; }
+  /* line 114, ../sass/style.sass */
+  .bubble:after {
+    background: -webkit-radial-gradient(center, ellipse, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 70%);
+    background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 70%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ffffff', endColorstr='#00ffffff',GradientType=1 );
+    /* IE6-9 fallback on horizontal gradient */
+    border-radius: 50%;
+    box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+    content: "";
+    height: 180px;
+    left: 10px;
+    position: absolute;
+    width: 180px; }
+
+/* line 127, ../sass/style.sass */
+.memo-img {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px; }
+
+/*# sourceMappingURL=style.css.map */
